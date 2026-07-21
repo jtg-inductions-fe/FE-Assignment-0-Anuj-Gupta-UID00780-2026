@@ -239,6 +239,9 @@ input:focus-visible {
   flex: 0 0 40px;
   border-radius: 50%;
   position: relative;
+  justify-content: center;
+  display: grid;
+  align-items: center;
 }
 
 .search__add-button {
@@ -374,8 +377,9 @@ input:focus-visible {
 .footer__settings-button {
   display: inline-flex;
   align-items: center;
-  min-height: 46px;
-  padding: 0 15px;
+  min-height: fit-content;
+  min-width: fit-content;
+  margin: 0 15px;
   color: #000;
 }
 
